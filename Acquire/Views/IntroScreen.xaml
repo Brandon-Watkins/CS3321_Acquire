@@ -1,0 +1,57 @@
+﻿<Window x:Class="Acquire.IntroScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acquire"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanMinimize"
+        Title="Aquire!" 
+        Height="700" 
+        Width="1200">
+    <Window.Background>
+        <ImageBrush ImageSource="..\images\aquireBoxArt.jpg"/>
+    </Window.Background>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*" />
+            <RowDefinition Height=".5*" />
+            <RowDefinition Height=".5*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width=".5*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Play Button -->
+        <Button x:Name="btn_Play"
+                Grid.Row="1"
+                Grid.Column="1"
+                Content="Play"
+                FontSize="48" 
+                FontFamily="PenultimateLight"
+                FontWeight="ExtraBold"
+                Margin="5" BorderBrush="#FF707070"
+                
+                Click="btn_Play_Click"
+                />
+        
+        <!-- Quit Button -->
+        <Button x:Name="btn_Quit"
+                Grid.Row="2"
+                Grid.Column="1"
+                Content="Quit"
+                FontSize="48"
+                FontFamily="PenultimateLight"
+                FontWeight="ExtraBold"
+                Margin="5"
+                
+                Click="btn_Quit_Click"
+                />
+    </Grid>
+</Window>

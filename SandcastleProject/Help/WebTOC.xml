@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="27d4d0dd-b136-45f4-ae36-77c4ef79b8cf" Title="Acquire" Url="html/079116c3-4871-fd9e-2c43-4a8ea094db1a.htm">
+    <HelpTOCNode Id="ddc5d4dd-2caa-4329-8117-0fa90afb6095" Title="App Class" Url="html/4a41eaf2-2ed6-508a-e61c-5a35e1913e66.htm">
+      <HelpTOCNode Title="App Constructor " Url="html/41eca276-fc28-3f94-933d-be29e625fb2b.htm" />
+      <HelpTOCNode Title="App Properties" Url="html/558cea1d-c3d7-221c-572a-ff80935e69c7.htm" />
+      <HelpTOCNode Id="e3cb9434-020a-48e1-857c-caefe26e625a" Title="App Methods" Url="html/fb0b9a1f-b0b7-b3aa-cac4-f7356e19368f.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/0172aa9e-5e66-455b-1b1e-adf476e28895.htm" />
+        <HelpTOCNode Title="Main Method " Url="html/864b8035-64b1-98db-3d5c-9979e814eafb.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="App Events" Url="html/aa11364b-aae1-74d7-dfec-7b30b3d698e4.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="b35c4ba2-80b7-47fc-bd7d-b162384aad3d" Title="Bank Class" Url="html/959d4d53-518c-128f-4720-afbdf51c8cb6.htm">
+      <HelpTOCNode Title="Bank Constructor " Url="html/420c3702-3602-b7ae-742c-4abf3dfe2e28.htm" />
+      <HelpTOCNode Id="1ab2e389-4340-4265-99d2-43ab6e7a29fa" Title="Bank Methods" Url="html/4e32e765-9543-a5da-4e80-388691b0b6b1.htm">
+        <HelpTOCNode Title="giveFreeStock Method " Url="html/38553217-b3b7-8256-a6c6-0308c0ed6536.htm" />
+        <HelpTOCNode Title="tradeStock Method " Url="html/0be789b9-52a7-4d14-4ccf-ec6486b51fb4.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Bank Fields" Url="html/f3d7d29a-7277-7973-fc57-1084c1a7232a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="23c94f86-2269-4542-ad4e-93baa0482192" Title="Board Class" Url="html/f65850f3-d4d8-5893-03d9-c1eef0e76b2b.htm">
+      <HelpTOCNode Title="Board Constructor " Url="html/f9b6e87f-2590-4944-9df9-a531a1dd661a.htm" />
+      <HelpTOCNode Id="4236988b-9cc8-47e0-9177-36cc2972af95" Title="Board Methods" Url="html/b9408532-329c-ef56-d73d-afcc8c05bb04.htm">
+        <HelpTOCNode Title="getTileAt Method " Url="html/b5ebde31-62a4-4b57-c88e-bdf451ef2e66.htm" />
+        <HelpTOCNode Title="playTile Method " Url="html/714f4c6a-e40a-8a5c-6ff5-b4e5967e69cf.htm" />
+        <HelpTOCNode Title="removeTileAt Method " Url="html/b033f881-4893-1fba-7f94-52eddc5078c5.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bb0d18ac-8807-4521-860e-32dedd4da5f3" Title="Board Fields" Url="html/d0b3e2ed-2146-a1ac-1f27-681d2c4589ef.htm">
+        <HelpTOCNode Title="MAX_COLUMNS Field" Url="html/a7cd624c-2c4f-ba68-40fd-de160c0695dd.htm" />
+        <HelpTOCNode Title="MAX_ROWS Field" Url="html/620ce81d-c7d7-bde1-6449-2fa53e897c3f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="155f2454-d7e0-48ac-8367-05784af89fad" Title="ChooseCorpEvent Interface" Url="html/877ae27a-1952-9e1c-e41e-dd0024a1e00c.htm">
+      <HelpTOCNode Id="953502d5-d510-46bc-8cd5-9d5df6f321d4" Title="ChooseCorpEvent Methods" Url="html/8ebbbf7f-3acf-3469-08cb-06726c8379c9.htm">
+        <HelpTOCNode Title="chooseCorporation Method " Url="html/789d401d-eb4a-5aea-4bc8-d3c10cfd8730.htm" />
+        <HelpTOCNode Title="getValidCorporationChoices Method " Url="html/a5901477-a098-d1cb-3db7-ad9bd8cd00d3.htm" />
+        <HelpTOCNode Title="setHandler Method " Url="html/a19803b5-143c-5bd2-56d0-a2f62ec4bf1f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="2af08385-5056-4ef8-a8c3-492fec91d257" Title="ChooseCorpHandler Interface" Url="html/0ff1e1cb-2eb7-100d-4cbf-7c5245b71030.htm">
+      <HelpTOCNode Id="b1ef0919-620f-417f-ae48-d03172a44c7c" Title="ChooseCorpHandler Methods" Url="html/285e2dc1-3f45-854f-49c7-3a8e34c935c5.htm">
+        <HelpTOCNode Title="handleChooseCorp Method " Url="html/e7d0ed34-7f27-1d60-1a2c-5069df7971ab.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bfe85862-92b0-461c-bec6-2dfc9aea9c09" Title="CorpExpansion Class" Url="html/ed1242ef-da62-7df1-22c8-db6a3a5a82cd.htm">
+      <HelpTOCNode Title="CorpExpansion Constructor " Url="html/f6cbb46a-b5bb-7a68-4bc1-9279977a1b11.htm" />
+      <HelpTOCNode Id="e0ccf2d9-7ac5-40aa-96ae-cf20b1c4b11b" Title="CorpExpansion Methods" Url="html/58d0b208-baab-64b5-a375-8c794f426a41.htm">
+        <HelpTOCNode Title="chooseCorporation Method " Url="html/3929d9a0-c78b-0db6-3e2b-017bf900f53e.htm" />
+        <HelpTOCNode Title="getValidCorporationChoices Method " Url="html/6d495844-375c-97a6-938c-e797bad84dfd.htm" />
+        <HelpTOCNode Title="resolveIntersection Method " Url="html/8aa95424-5e1f-6f46-3385-dc18fd81e8cc.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CorpExpansion Fields" Url="html/3a7dda01-fee9-e524-5104-ac0f0cd6bbef.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="48792e1f-3274-42b6-ab78-61129712648d" Title="CorpFoundation Class" Url="html/be037dfd-8223-8dd6-4314-a47a1bdeddc7.htm">
+      <HelpTOCNode Title="CorpFoundation Constructor " Url="html/2fa29120-9321-9e7e-c76c-956ec05e526b.htm" />
+      <HelpTOCNode Id="29252209-9540-48a5-a250-dca382ba047f" Title="CorpFoundation Methods" Url="html/99dabf96-01e0-ee4c-c484-f6403661438a.htm">
+        <HelpTOCNode Title="chooseCorporation Method " Url="html/cd112a73-a3b3-e23f-4a40-355c798e8deb.htm" />
+        <HelpTOCNode Title="getInactiveCorporation Method " Url="html/596bf40d-b666-8f13-d327-572952dd96ca.htm" />
+        <HelpTOCNode Title="getValidCorporationChoices Method " Url="html/3371c4bc-86bf-edc7-58e9-bbb4149df81d.htm" />
+        <HelpTOCNode Title="resolveIntersection Method " Url="html/0f0c03b0-072c-f7ba-a3a3-6d8038d26d60.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="CorpFoundation Fields" Url="html/ac93d1e7-6e41-adff-732b-d5e8492d658a.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d19aef7e-e0fd-4043-bf4a-7ee169d04f26" Title="Corporation Class" Url="html/d757c766-971a-e20c-45b6-8f79664dfa6b.htm">
+      <HelpTOCNode Title="Corporation Constructor " Url="html/bebf9d7a-98e3-18d1-93b7-d1a58ee98610.htm" />
+      <HelpTOCNode Id="fa3e7659-bcb2-4451-ab58-97c509488b5e" Title="Corporation Properties" Url="html/e92ebdda-5a13-df29-c8e6-8f6f15d07d77.htm">
+        <HelpTOCNode Title="Active Property " Url="html/853e71ba-7eb6-0dca-fd13-bb73f13cbe1f.htm" />
+        <HelpTOCNode Title="IsSafe Property " Url="html/f5603fc8-3b7a-fa5f-346d-2eb4bfff188d.htm" />
+        <HelpTOCNode Title="Name Property " Url="html/49dbdc57-6017-73a3-097f-bc811cae71f5.htm" />
+        <HelpTOCNode Title="Size Property " Url="html/948d93d6-b176-baca-56f3-69f657e93bb0.htm" />
+        <HelpTOCNode Title="StockPrice Property " Url="html/8e764925-cc95-040a-cedd-e4e821e2c919.htm" />
+        <HelpTOCNode Title="Tiles Property " Url="html/1d065d2f-6f06-bf16-7c42-588733629245.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="81f45855-e007-4863-b45c-e9c80a4db3b2" Title="Corporation Methods" Url="html/cb685bcc-1bd8-ff27-2efc-ebfaf402470e.htm">
+        <HelpTOCNode Title="addHandler Method " Url="html/5a085720-9975-9d9d-9fa9-5970eb57639c.htm" />
+        <HelpTOCNode Title="expand Method " Url="html/34032463-1408-3393-109e-8e79e09a58de.htm" />
+        <HelpTOCNode Title="formCorporation Method " Url="html/cddc0162-2e38-41a2-38a4-0b184bd2d3d1.htm" />
+        <HelpTOCNode Title="mergeInto Method " Url="html/f026a04b-36a0-9945-30e2-4b8609007bc8.htm" />
+        <HelpTOCNode Title="notifyDefunct Method " Url="html/42793f27-6000-037d-972d-b5925617d1dd.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="ECorporation Enumeration" Url="html/d0f960b6-ae15-87fa-4872-8d7088c4c460.htm" />
+    <HelpTOCNode Id="0b4cb094-2353-41dc-9c5c-dc50ce21da84" Title="Game Class" Url="html/7764dfd4-dffa-fac8-dbf4-33e8caa85048.htm">
+      <HelpTOCNode Title="Game Constructor " Url="html/690fb436-3009-ece7-940b-dfc4c17cde3d.htm" />
+      <HelpTOCNode Id="ea099c5a-55d7-43cf-9ac1-f5a3e4b3fa1c" Title="Game Properties" Url="html/d79e36f2-350c-9acb-53d4-5b01c1797606.htm">
+        <HelpTOCNode Title="DrawPile Property " Url="html/e5b1c1f2-285a-2935-dff6-78d09c5f98df.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a369e42b-6697-4822-946e-35e664f12488" Title="Game Methods" Url="html/c1aee1ad-9418-1d9d-514b-5bc2e597e0a1.htm">
+        <HelpTOCNode Title="canEndGame Method " Url="html/9ffc333a-a173-7b28-7a6b-992368277d15.htm" />
+        <HelpTOCNode Title="chooseCorporation Method " Url="html/6c0fffa3-8a3c-7fcb-aff2-1966208eb3d0.htm" />
+        <HelpTOCNode Title="drawTile Method " Url="html/d299fb19-1b1e-2be6-c96a-ccf6f2c10b36.htm" />
+        <HelpTOCNode Title="endGame Method " Url="html/37c25064-4c86-d285-1ebd-aae710db4d00.htm" />
+        <HelpTOCNode Title="getBankStocks Method " Url="html/32e9c42f-cea4-0426-ea1a-39fa732d8f73.htm" />
+        <HelpTOCNode Title="getCorporationTiles Method " Url="html/f5ab3da1-7c1d-5207-da80-e651db56edfa.htm" />
+        <HelpTOCNode Title="getCurrentPlayer Method " Url="html/4fa45136-5672-44c1-c781-bdae17f8ed03.htm" />
+        <HelpTOCNode Title="getCurrentPlayerHand Method " Url="html/5add6f54-ffb8-0d89-0d62-1653acd9ac22.htm" />
+        <HelpTOCNode Title="getCurrentPlayerMoney Method " Url="html/bbc4fdd2-8bfd-a969-a7a3-aac6b97bb708.htm" />
+        <HelpTOCNode Title="getCurrentPlayerName Method " Url="html/e1ee4bc8-724a-550b-6dc7-e6c13ea0877c.htm" />
+        <HelpTOCNode Title="getCurrentPlayerStocks Method " Url="html/7b4346c6-9d23-0134-111f-0abfce36f769.htm" />
+        <HelpTOCNode Title="getDefunctCorporation Method " Url="html/81f2ce51-e449-0393-681c-ee0f725bb0d2.htm" />
+        <HelpTOCNode Title="getGameState Method " Url="html/826a1490-e080-5964-7059-157cf7d334ca.htm" />
+        <HelpTOCNode Title="getOvertaker Method " Url="html/2b9057fb-99f8-7893-1a58-df4811490dd9.htm" />
+        <HelpTOCNode Title="getStockValue Method " Url="html/c0f09586-4688-5061-26fc-0f6e74c9d2a7.htm" />
+        <HelpTOCNode Title="getTileOnBoard Method " Url="html/6d3aa637-38c9-6132-9314-b955726c13e9.htm" />
+        <HelpTOCNode Title="getValidCorporationChoices Method " Url="html/bd550fcc-5b1c-a01f-10c6-a319e47527ce.htm" />
+        <HelpTOCNode Title="handleChooseCorp Method " Url="html/98cb242f-ccc6-88aa-d49d-2568514a24ec.htm" />
+        <HelpTOCNode Title="handleGiveFreeStock Method " Url="html/5443d691-5754-daff-85e9-97ae3cf30ac6.htm" />
+        <HelpTOCNode Title="handleStocks Method " Url="html/d45554e8-a675-6ae7-9fe3-526a259e0e8b.htm" />
+        <HelpTOCNode Title="holdStocks Method " Url="html/c70db058-a359-3fbd-daf1-e5bb154e4f59.htm" />
+        <HelpTOCNode Title="isActiveCorporation Method " Url="html/d708ad25-e8ad-450a-991f-55f04dfa70db.htm" />
+        <HelpTOCNode Title="nextPlayer Method " Url="html/abc46b54-ca6a-8810-a094-76cf6b84e03d.htm" />
+        <HelpTOCNode Title="notifySubscribers Method " Url="html/04b4699b-b7e1-4642-6155-04554f24e802.htm" />
+        <HelpTOCNode Title="playTile Method " Url="html/c0febc3f-d323-7872-2d07-6a864cfb70dc.htm" />
+        <HelpTOCNode Title="purchaseStocks Method " Url="html/668d7e69-5c22-4393-47f3-3812b282282d.htm" />
+        <HelpTOCNode Title="sellStocks Method " Url="html/bed99d3d-3bcd-37eb-283c-d13d6af21017.htm" />
+        <HelpTOCNode Title="setHandler Method " Url="html/582bed6b-0c1e-fb52-0aeb-eb7d5958c2ae.htm" />
+        <HelpTOCNode Title="subscribe Method " Url="html/2d814475-6fd6-3466-2a5c-a8912fa7ce08.htm" />
+        <HelpTOCNode Title="tradeStocks Method " Url="html/5630818a-67d8-73d5-7e4b-eb97e78a0b7f.htm" />
+        <HelpTOCNode Title="unsubscribe Method " Url="html/316ebf60-6954-9147-2dbf-7161269da55a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Title="GameState Enumeration" Url="html/e85299c2-cc7e-e7fc-ffcd-108485a9f5f8.htm" />
+    <HelpTOCNode Id="b1604202-4f75-47e5-91ee-e4d4dae9e815" Title="GameView Class" Url="html/6c1f5cd0-2e3a-c936-5f17-3a4c7ed997ab.htm">
+      <HelpTOCNode Title="GameView Constructor " Url="html/bb7c5c6c-1e8b-ea3d-4baa-5907b3e2f3ad.htm" />
+      <HelpTOCNode Title="GameView Properties" Url="html/a6733248-701c-eca3-e7ed-1de118177a55.htm" />
+      <HelpTOCNode Id="1a42c80d-c07e-443b-9e41-5f58b0f71366" Title="GameView Methods" Url="html/e646e03f-d032-568a-9b75-760f47846993.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/09841a86-26c9-d6c3-38a4-13a35356fc4d.htm" />
+        <HelpTOCNode Title="IsWindowOpen(T) Method " Url="html/13faf4d7-0610-1409-f716-2ed8b3d7ca5f.htm" />
+        <HelpTOCNode Title="update Method " Url="html/20c46289-fb96-04bc-7fc1-529236f1469f.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="GameView Events" Url="html/5445cd00-2523-fb2c-3ad4-285a0abb8eef.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="396f6978-d886-4e60-b80c-896d4f352341" Title="IntroScreen Class" Url="html/7b8ed0eb-37de-fa6d-3dfb-e404c0cd2ed0.htm">
+      <HelpTOCNode Title="IntroScreen Constructor " Url="html/54db9db5-029b-2c6c-8dc6-c80a754d3d5c.htm" />
+      <HelpTOCNode Title="IntroScreen Properties" Url="html/bc27f322-d2db-ac98-e701-99cdea2b2ee4.htm" />
+      <HelpTOCNode Id="76bdddcc-9922-4f91-95e2-eec7b43d153b" Title="IntroScreen Methods" Url="html/aa8b7885-fe7e-0ff2-799f-6b5e0fe60f53.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/c6859c8a-16ff-22f4-9d12-06323d814ebd.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="IntroScreen Events" Url="html/9a161de2-9aea-db5f-da58-a4706be212b9.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="e2c994d0-f9a3-4a5b-9900-442b9d15a853" Title="Merger Class" Url="html/4fab2a9c-7f3f-6671-59f3-4059a03e3588.htm">
+      <HelpTOCNode Title="Merger Constructor " Url="html/fc15431e-fe18-9d66-98fa-6827ad9c3cb1.htm" />
+      <HelpTOCNode Id="a2c3a0f5-feba-4d2d-ac1c-a684a8064b5b" Title="Merger Methods" Url="html/3e2ca387-8ed5-2ef7-1038-9f36375de89c.htm">
+        <HelpTOCNode Title="chooseCorporation Method " Url="html/fec150b3-e3b1-d737-1c94-99b08be11bcb.htm" />
+        <HelpTOCNode Title="getDefunct Method " Url="html/3076a5de-2206-4b70-ffe4-a28070a262d6.htm" />
+        <HelpTOCNode Title="getMergeMaker Method " Url="html/95d68b5b-6ecb-d47e-da8e-2e48d7606fcd.htm" />
+        <HelpTOCNode Title="getOvertaker Method " Url="html/46588f8a-433a-26e0-74ac-e40b1fb46d09.htm" />
+        <HelpTOCNode Title="getValidCorporationChoices Method " Url="html/18d8b15a-5a77-61e2-fb70-62faaa2c7c78.htm" />
+        <HelpTOCNode Title="mergeNext Method " Url="html/715b7d66-9f80-d01d-5ccb-f62729a8c10c.htm" />
+        <HelpTOCNode Title="resolveIntersection Method " Url="html/118b896c-f9e1-0164-93b3-677cc451b166.htm" />
+        <HelpTOCNode Title="setMergeMaker Method " Url="html/46dc9aa2-3e1b-c723-b854-64cb8eb722ef.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Merger Fields" Url="html/220c84f0-90c2-20b5-94ff-6f419dcf3c35.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="48ea7796-2f28-408e-9096-8e15eb1e249e" Title="PermanentUnplayableTileException Class" Url="html/31a137da-65aa-b847-39be-ea613be6e1c3.htm">
+      <HelpTOCNode Title="PermanentUnplayableTileException Constructor " Url="html/1443d398-b98f-c757-a6d4-a7eda07a7646.htm" />
+      <HelpTOCNode Title="PermanentUnplayableTileException Properties" Url="html/eacc4563-d1ba-c5bd-d1b3-7dba88707d98.htm" />
+      <HelpTOCNode Title="PermanentUnplayableTileException Methods" Url="html/67623d62-dbef-81c6-b198-1d64859b162f.htm" />
+      <HelpTOCNode Title="PermanentUnplayableTileException Events" Url="html/0f7d062c-cf8a-0f0c-a7a1-afd0e44d565b.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="9d3b9e76-4039-46ae-8b64-67fffd254d11" Title="Player Class" Url="html/b624d811-0365-e4a8-76e5-498e214751a9.htm">
+      <HelpTOCNode Title="Player Constructor " Url="html/cdd71d15-eb95-c658-9d9a-4d77466c552c.htm" />
+      <HelpTOCNode Id="f8672ade-b1fa-4db8-89a4-e142def457bf" Title="Player Methods" Url="html/66628197-6d93-1f96-cf90-9c0f167de9e9.htm">
+        <HelpTOCNode Title="adjustMoney Method " Url="html/ecaeb538-4ecd-65d8-a934-21077fec8956.htm" />
+        <HelpTOCNode Title="getHand Method " Url="html/f8f53958-9cc1-58f2-5818-4ac80d70f86a.htm" />
+        <HelpTOCNode Title="getMoney Method " Url="html/33753973-2520-e3d1-6fae-db081e13669e.htm" />
+        <HelpTOCNode Title="getName Method " Url="html/a6909ce3-f717-5046-d776-596e6dba0b36.htm" />
+        <HelpTOCNode Title="giveTile Method " Url="html/981595c4-71f5-d5f2-8c16-9b05e1a8c278.htm" />
+        <HelpTOCNode Title="playTile Method " Url="html/60228503-b4c5-00bc-36aa-367daa69d4a4.htm" />
+        <HelpTOCNode Title="purchaseStock Method " Url="html/4ac700f4-48e3-7623-6e78-57ff9b88432d.htm" />
+        <HelpTOCNode Title="sellStock Method " Url="html/ecf95fae-668e-c298-2c7f-fabf3bbd3e1c.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="Player Fields" Url="html/f75d5742-fb6d-8211-afd1-0f0815cdc72d.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="fe1a110d-cb07-443b-9083-4fa7ba4ca1ef" Title="PlayerInfo Class" Url="html/31a32596-8d0f-3dee-1382-427bdbbc02a5.htm">
+      <HelpTOCNode Title="PlayerInfo Constructor " Url="html/d088d8a6-96fa-37b1-e7f0-d3735696cd7f.htm" />
+      <HelpTOCNode Title="PlayerInfo Properties" Url="html/8fd356ce-7a5e-54c9-b9af-63f95cdbc5cb.htm" />
+      <HelpTOCNode Id="1953b29e-2bc1-4393-9ae6-c572323a889e" Title="PlayerInfo Methods" Url="html/c056c510-4878-0cbe-cbee-44db26bb6d44.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/34c8d4e2-ba5e-8804-4cb9-ab347e22f464.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerInfo Events" Url="html/02e6b56c-6b36-4f88-0530-53dd85bc55d3.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="51386704-963e-4c6b-a3de-20f6249ba60d" Title="PlayerNumber Class" Url="html/782a1ba9-885a-b2b4-00ac-8e8260f86d6f.htm">
+      <HelpTOCNode Title="PlayerNumber Constructor " Url="html/c6927f44-9bca-356e-ba66-51049b06a2a6.htm" />
+      <HelpTOCNode Title="PlayerNumber Properties" Url="html/72f5f761-84a7-3795-c2fc-59eed1299b5d.htm" />
+      <HelpTOCNode Id="46f48f7c-4a59-489a-aa37-b8a798728371" Title="PlayerNumber Methods" Url="html/db2686af-07dc-ca9f-8a30-edfaea1c1ae2.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/2d3adaac-6f1d-e77f-90bd-bd92e1627c99.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="PlayerNumber Events" Url="html/eba7edb2-cf90-0bd0-13e9-12a95b430557.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="77d7bd85-e6a3-4c09-b54e-7bbda6b89bf4" Title="StockPile Class" Url="html/d42504df-1be3-2f24-f606-5d42d0c5e6ed.htm">
+      <HelpTOCNode Title="StockPile Constructor " Url="html/895297c7-a456-f7e7-d644-b8a8d3466ad1.htm" />
+      <HelpTOCNode Id="3dfa1a80-abd6-469e-a02e-70ee5bc569b8" Title="StockPile Properties" Url="html/f8e4d13e-bbea-e7fd-6b7e-f1b00b71e45f.htm">
+        <HelpTOCNode Title="NumStocks Property " Url="html/20ad7147-db59-59d5-ee90-99ad1f0360e9.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="c74a1f96-ca9a-4eb5-ad12-df1f96c92f2f" Title="StockPile Methods" Url="html/a71ea9c0-300a-e4f3-3653-197e207b437f.htm">
+        <HelpTOCNode Title="add Method " Url="html/9800863d-1902-778b-d0b8-fdbb078bfb0e.htm" />
+        <HelpTOCNode Title="getStockPrice Method " Url="html/7deec0b0-51eb-0917-f8ea-63602565f4d8.htm" />
+        <HelpTOCNode Title="remove Method " Url="html/b84c748e-d49a-e74e-cdcc-1c1ff48be01c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="7f49d319-b491-4a25-9e41-956d024ed4a7" Title="TemporaryUnplayableTileException Class" Url="html/7d592ba6-c5c6-3a0c-ae6b-64efcb94a7d4.htm">
+      <HelpTOCNode Title="TemporaryUnplayableTileException Constructor " Url="html/4d610693-cd68-59db-a553-35bdbd1ba3ff.htm" />
+      <HelpTOCNode Title="TemporaryUnplayableTileException Properties" Url="html/9a987264-53a0-f1e2-08f7-974090bba69b.htm" />
+      <HelpTOCNode Title="TemporaryUnplayableTileException Methods" Url="html/bf949b4a-6a15-90e3-0f75-b4ec16bbc7cd.htm" />
+      <HelpTOCNode Title="TemporaryUnplayableTileException Events" Url="html/b9d4be42-37a6-9374-1765-7e49614127dc.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="0687a18b-317f-4f14-b9c6-7b328651df79" Title="Tile Class" Url="html/0d68a8f3-f684-60e2-aeb3-19836def55cc.htm">
+      <HelpTOCNode Title="Tile Constructor " Url="html/e257e33b-1c69-0653-9e17-5e5091647beb.htm" />
+      <HelpTOCNode Id="68902072-08d5-4030-847c-18aefb5fceca" Title="Tile Properties" Url="html/3a757d75-c8bf-7821-3acb-c0a45dd2aa8e.htm">
+        <HelpTOCNode Title="Corp Property " Url="html/2820a81b-4a93-ea19-dfe1-a3872ac02968.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="24e576fe-7c3b-4d57-8421-f45f7936a5ee" Title="Tile Methods" Url="html/702cc0b8-992b-3eb9-340e-5b4ff3f71ea5.htm">
+        <HelpTOCNode Title="getColumn Method " Url="html/9afced90-312b-461d-8dcd-80549d618a30.htm" />
+        <HelpTOCNode Title="getPosition Method " Url="html/7a630241-7de3-dd55-4ed7-6dc88d0cff1c.htm" />
+        <HelpTOCNode Title="getRow Method " Url="html/60f73add-728d-25b9-bdbb-b5c56b155123.htm" />
+        <HelpTOCNode Title="setCorporation Method " Url="html/ccf7dd91-d71f-56dd-6221-5352d40240b3.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="11c88458-9900-48b3-ad8d-7010b4a9f36f" Title="TileIntersection Class" Url="html/8c91d9a5-ba9f-cc78-76c4-9e19a7739ab7.htm">
+      <HelpTOCNode Title="TileIntersection Constructor " Url="html/3ea2b8da-ee74-77b2-a5fe-f0236125c8d5.htm" />
+      <HelpTOCNode Id="70447de6-3f19-4829-9337-9854111bbcc8" Title="TileIntersection Methods" Url="html/6d127bfc-5b00-c135-4644-ea9332bbe4de.htm">
+        <HelpTOCNode Title="chooseCorporation Method " Url="html/12aa3cb2-71fe-42be-a4a6-12e283a4dd9f.htm" />
+        <HelpTOCNode Title="getValidCorporationChoices Method " Url="html/3d08f078-728c-679b-e0b7-0bd130870b86.htm" />
+        <HelpTOCNode Title="resolveIntersection Method " Url="html/b6e252da-471d-dcdd-c066-5a581d09aa73.htm" />
+        <HelpTOCNode Title="setHandler Method " Url="html/28860910-29c4-7bf2-4b13-71e097ea22b7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ed7393b6-12c1-40cb-b3bb-2bc1e5faa170" Title="TileIntersection Fields" Url="html/e4d52d0b-fd1e-def4-d15c-884b6aa04af0.htm">
+        <HelpTOCNode Title="adjacentTiles Field" Url="html/ef9abf4b-9a7b-f955-8a89-a35d29c606d8.htm" />
+        <HelpTOCNode Title="connector Field" Url="html/40e6773a-c8b0-a493-aee9-88a1968bf2b0.htm" />
+        <HelpTOCNode Title="handler Field" Url="html/7a376f77-1b4b-adce-bf91-ea02c3f433cc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dc32d937-4076-4c30-9ce6-26afb51c0d92" Title="TileIntersectionFactory Class" Url="html/d80c23ba-2e0a-e884-cdaa-54c69b629259.htm">
+      <HelpTOCNode Title="TileIntersectionFactory Constructor " Url="html/d6938fd3-e8ea-2c7b-9abb-2d26bf3c0926.htm" />
+      <HelpTOCNode Id="08bcf11c-1d16-4efb-bc4e-eccbf3231dae" Title="TileIntersectionFactory Methods" Url="html/015cfd0d-e2c1-45e4-987f-8804e96f98e1.htm">
+        <HelpTOCNode Title="determineIntersection Method " Url="html/7b561ae9-77ae-ad36-32ef-bec2816aaaf8.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="485e0a1a-e07b-4681-b463-9eac27d5b5b9" Title="Acquire.interfaces" Url="html/7d6d6f10-4631-0db5-a8c4-4679a1cda20a.htm">
+    <HelpTOCNode Id="a233baa7-1d17-42be-a660-5f593a2b5b5c" Title="CorporationInfo Interface" Url="html/5b005a3b-1cb9-94cc-0b8c-479eb6fec790.htm">
+      <HelpTOCNode Id="3bf3b24d-df0d-4f22-9ae4-584e289db297" Title="CorporationInfo Methods" Url="html/2334a26d-294d-de15-e074-db3b908c3e5f.htm">
+        <HelpTOCNode Title="getCorporationTiles Method " Url="html/530d5c51-6388-0559-b2c5-35819ba25da7.htm" />
+        <HelpTOCNode Title="getStockValue Method " Url="html/b3ca5968-ef57-7888-4d8e-8ab59c14c604.htm" />
+        <HelpTOCNode Title="isActiveCorporation Method " Url="html/6f18d457-d91b-c216-bf89-ecff416247c9.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="ccad00f0-28bf-4cf4-8b65-a9841679a502" Title="GameModel Interface" Url="html/d639d08c-785d-b27c-82bd-a8c644ce334d.htm">
+      <HelpTOCNode Id="b417d96c-4f27-457e-a3d4-a1414e976c1a" Title="GameModel Methods" Url="html/618dc781-a623-fe20-4f35-87bfc41da25a.htm">
+        <HelpTOCNode Title="canEndGame Method " Url="html/e554ecc7-58cf-5464-3c76-27069497cb6c.htm" />
+        <HelpTOCNode Title="endGame Method " Url="html/f65d582e-bafd-18ea-1931-bdfadad2174e.htm" />
+        <HelpTOCNode Title="getBankStocks Method " Url="html/f6f2c8be-5573-8485-e2f1-33d85e21e66f.htm" />
+        <HelpTOCNode Title="getGameState Method " Url="html/daa43e57-e7bc-cf41-8285-75b9e5da8b94.htm" />
+        <HelpTOCNode Title="getTileOnBoard Method " Url="html/3de23245-9b7e-afa7-2bc0-d66361764929.htm" />
+        <HelpTOCNode Title="nextPlayer Method " Url="html/07f85d38-d920-e923-73dd-609d1607edba.htm" />
+        <HelpTOCNode Title="playTile Method " Url="html/5794aa2c-03d6-2ca2-8478-ecc86e70a3fd.htm" />
+        <HelpTOCNode Title="purchaseStocks Method " Url="html/2288790c-cbe4-1c66-c1b6-19219b7463a2.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="099d9d8c-a4c7-4398-82ca-de685411a459" Title="IMerger Interface" Url="html/769958a3-9621-2314-e5f3-f2eb064b0214.htm">
+      <HelpTOCNode Id="0dc973e2-3def-4d4c-8163-d720e8aa1d17" Title="IMerger Methods" Url="html/b9ea258c-f735-a40f-82bc-427a9a802ded.htm">
+        <HelpTOCNode Title="getDefunct Method " Url="html/2a0edfb6-9127-fe2a-ff90-a11b14d95d5e.htm" />
+        <HelpTOCNode Title="getMergeMaker Method " Url="html/ecc21df5-aa77-fe31-7dff-929618f72476.htm" />
+        <HelpTOCNode Title="getOvertaker Method " Url="html/0479dfe3-cafd-3f2f-34ca-c943f9a2ec0a.htm" />
+        <HelpTOCNode Title="mergeNext Method " Url="html/30b810c0-cb08-886a-0c06-13e7284bea8e.htm" />
+        <HelpTOCNode Title="setMergeMaker Method " Url="html/b3ebdae8-6abd-266b-cbb7-044e10667c84.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d4c21738-28c6-4087-be0d-ea71de1697ab" Title="Observable Interface" Url="html/d2a245ea-9092-2def-07f8-6c7bb92b51e6.htm">
+      <HelpTOCNode Id="fac96f26-745a-41cb-b467-4f7467622539" Title="Observable Methods" Url="html/355a4d8d-0a97-461e-1b18-d0a2fc3d31f5.htm">
+        <HelpTOCNode Title="notifySubscribers Method " Url="html/08e365d9-b05f-fcf6-30b4-d04efbd4cf21.htm" />
+        <HelpTOCNode Title="subscribe Method " Url="html/b0637fc3-eb8d-a42e-3b23-663b24657b9b.htm" />
+        <HelpTOCNode Title="unsubscribe Method " Url="html/321fb9a9-cdcb-f3d6-d123-e9c63e583db0.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3c7745ac-b9d9-4399-ac20-7b85ff2cfd15" Title="Observer Interface" Url="html/73280e6b-4d92-a37e-c9a7-6ac160f835be.htm">
+      <HelpTOCNode Id="c9ce798b-91d1-48ff-ac03-144f2175cc00" Title="Observer Methods" Url="html/cbbd07fc-ad72-7d80-66c6-db16fb73a21e.htm">
+        <HelpTOCNode Title="update Method " Url="html/34e0f7ad-30a3-947f-3820-2fad85c1cbdc.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3df27e1d-6255-46a1-9f31-e62863fe660a" Title="PlayerInfo Interface" Url="html/e86ee91c-311a-7f3a-948d-4542bf23663b.htm">
+      <HelpTOCNode Id="f12aa31e-b996-48a5-b946-9fb1c4595261" Title="PlayerInfo Methods" Url="html/7fa5df73-f4f2-5e85-f451-83f196eb49fc.htm">
+        <HelpTOCNode Title="getCurrentPlayerHand Method " Url="html/7a186a71-a7bc-38f2-adee-9a302237c19d.htm" />
+        <HelpTOCNode Title="getCurrentPlayerMoney Method " Url="html/a0db87e6-184e-481c-cc2e-726eddd9432c.htm" />
+        <HelpTOCNode Title="getCurrentPlayerName Method " Url="html/aee8066c-9754-7e91-aaf6-dd90cd6842f2.htm" />
+        <HelpTOCNode Title="getCurrentPlayerStocks Method " Url="html/00ef541d-3383-ea1b-2ca5-68f7c83bf0eb.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f1a8a96f-532d-4366-9477-96bedf758564" Title="StockContainer Class" Url="html/b37e9635-6fac-261f-b285-2e03512995fb.htm">
+      <HelpTOCNode Title="StockContainer Constructor " Url="html/b73209cd-1f24-934e-4a39-10d6c5c21a21.htm" />
+      <HelpTOCNode Id="d612db03-1141-421e-bd7c-5cf1da00cb7d" Title="StockContainer Methods" Url="html/6ed150a1-cdaa-1bf1-083f-dc7c1d5dc18c.htm">
+        <HelpTOCNode Title="addStock Method " Url="html/4f1a44b2-6143-ebd6-b813-fd97958040e4.htm" />
+        <HelpTOCNode Title="countStocks Method " Url="html/8bc663a4-862c-33b8-2dbd-aed273a29eab.htm" />
+        <HelpTOCNode Title="removeStock Method " Url="html/8b564c1d-9478-01b5-8776-81646076c754.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dc2f9c4c-2575-4f12-8db7-5e215d883b76" Title="StockContainer Fields" Url="html/3b90359e-b170-34e6-8a07-b36f6cdb8ef3.htm">
+        <HelpTOCNode Title="stocks Field" Url="html/d1c86325-70d6-265e-064b-db44762ab57e.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="a08c574f-9955-4f10-b7b2-fc26f9c46043" Title="StockCorpHandler Interface" Url="html/659610f0-07c4-8431-062f-5bd2a32b455e.htm">
+      <HelpTOCNode Id="4c9f437b-257c-4442-9b12-789feaa7a01d" Title="StockCorpHandler Methods" Url="html/0e85a15d-d141-44e9-96c9-1d60389b81e4.htm">
+        <HelpTOCNode Title="getDefunctCorporation Method " Url="html/d7f1b1e6-1316-b224-5cbb-bc37b48bbf66.htm" />
+        <HelpTOCNode Title="getOvertaker Method " Url="html/d1bbafac-46b0-3c97-be08-fb78442a9df2.htm" />
+        <HelpTOCNode Title="handleGiveFreeStock Method " Url="html/c855cede-5dc7-6ed4-8650-2db46c830b13.htm" />
+        <HelpTOCNode Title="handleStocks Method " Url="html/5233f579-d579-cee2-f404-b2b288dc6acc.htm" />
+        <HelpTOCNode Title="holdStocks Method " Url="html/4fcc5b35-fce9-0a0f-c2b0-87b3cf13f82a.htm" />
+        <HelpTOCNode Title="sellStocks Method " Url="html/a7ff0bc6-7181-b97f-db8f-3ad23fa180fc.htm" />
+        <HelpTOCNode Title="tradeStocks Method " Url="html/59890253-dd8d-c4d4-d5cc-a495bf19d2c1.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+  <HelpTOCNode Id="18d0331b-6801-425b-9379-f25393903eb2" Title="Acquire.Views" Url="html/42f55fc3-8dca-3ead-ab7c-4f4dc14c1947.htm">
+    <HelpTOCNode Id="f25c87db-32a1-49c0-b2c7-9981ccaccc07" Title="AquireStyle Class" Url="html/b1f973bd-ddf6-5165-4116-03b67e01e61d.htm">
+      <HelpTOCNode Title="AquireStyle Constructor " Url="html/c0ff8a9c-c8fd-4b11-71b0-7ae0d3971fe7.htm" />
+      <HelpTOCNode Id="906050d3-9ee3-4003-ad2b-567d19735d52" Title="AquireStyle Methods" Url="html/ed32444a-ce9d-c20a-db6c-424d38289963.htm">
+        <HelpTOCNode Title="GetActiveCorpColor Method " Url="html/7b3a960c-9606-c81f-eece-5c5a605e880c.htm" />
+        <HelpTOCNode Title="GetInactiveCorpColor Method " Url="html/0614d4ae-521f-4001-cf7c-39c2bc4971df.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="bce1629f-27d6-4858-9651-83ea49bd6366" Title="BuyStocks Class" Url="html/b14c0301-1e7f-4b64-b916-db2c4efc7284.htm">
+      <HelpTOCNode Title="BuyStocks Constructor " Url="html/b8827862-bff8-7ecc-941a-85b0364a52e9.htm" />
+      <HelpTOCNode Title="BuyStocks Properties" Url="html/fdf96004-714d-3ebf-57eb-f038496e4053.htm" />
+      <HelpTOCNode Id="012581d1-e473-43bb-8f20-cec7e5f37b9b" Title="BuyStocks Methods" Url="html/778e0e80-e3ba-7e48-154a-12619a13db52.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/9960d0db-e585-17d0-31d8-00831346276b.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="BuyStocks Events" Url="html/086b57b6-5d16-a1a9-cd66-92dec32b7117.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="7146a3dc-4dce-4509-b420-3e168fbd06e0" Title="StockMerger Class" Url="html/dfd5a6a0-29e4-df57-22ab-bd48b8424ea8.htm">
+      <HelpTOCNode Title="StockMerger Constructor " Url="html/d1fdfb2c-97c6-d684-1a00-a932b6894c62.htm" />
+      <HelpTOCNode Title="StockMerger Properties" Url="html/5761e28e-9c38-d0e3-0850-e1924cd5092e.htm" />
+      <HelpTOCNode Id="25504c5a-ca6d-4cce-bab9-59ff2d61eaf4" Title="StockMerger Methods" Url="html/a924a28f-925a-987a-1cb0-d57b99e29f0e.htm">
+        <HelpTOCNode Title="InitializeComponent Method " Url="html/f3ebf458-0185-0216-dfc0-3bae744b95c7.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="StockMerger Events" Url="html/72a193c0-3955-2ce4-aa0b-609e8c66fef6.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

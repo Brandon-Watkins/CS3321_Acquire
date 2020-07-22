@@ -1,0 +1,647 @@
+﻿<Window x:Class="Acquire.Views.BuyStocks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Acquire.Views"
+        mc:Ignorable="d"
+        Title="Buy Stocks" 
+        WindowStartupLocation="CenterScreen"
+        Height="500" 
+        Width="700">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Corp Info Labels -->
+        <Border Grid.Row="1" Grid.Column="0"
+                Grid.ColumnSpan="2"
+                BorderBrush="Black"
+                BorderThickness="2"
+                CornerRadius="8"
+                Margin="10">
+            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width=".7*" />
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                
+                
+                <!-- ************* -->
+                <!-- Column Labels -->
+                <!-- ************* -->
+
+                <Label Grid.Row="0" Grid.Column="0"
+                       Content="Held:"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       
+                />
+
+                <Label Grid.Row="0" Grid.Column="2"
+                       Content="Price:"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                />
+
+
+                <!-- ************************ -->
+                <!-- Held Stock Number Lables -->
+                <!-- ************************ -->
+                
+                <Label x:Name="Content_Qty_American"
+                       Grid.Row="1"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"
+                       Padding="0"
+                />
+                
+                <Label x:Name="Content_Qty_Imperial"
+                       Grid.Row="2"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3" 
+                       Padding="0"
+                />
+                
+                <Label x:Name="Content_Qty_Continental"
+                       Grid.Row="3"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3" 
+                       Padding="0"
+                />
+
+                <Label x:Name="Content_Qty_Festival"
+                       Grid.Row="4"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="0"
+                />
+                
+                <Label x:Name="Content_Qty_Worldwide"
+                       Grid.Row="5"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="0"
+                />
+                
+                <Label x:Name="Content_Qty_Sackson"
+                       Grid.Row="6"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="0"
+                />
+                
+                <Label x:Name="Content_Qty_Tower"
+                       Grid.Row="7"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="0"
+                />
+
+
+                
+                
+                <!-- ***************** -->
+                <!-- Corporation Labels-->
+                <!-- ***************** -->
+
+                <Label Grid.Row="1"
+                       Grid.Column="1"
+                       Content="American"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Background="#ff2478ff"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"
+                       Padding="10,0"
+                />
+
+                <Label Grid.Row="2" Grid.Column="1"
+                       Content="Imperial"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Background="#fffffb26"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+
+                <Label Grid.Row="3" Grid.Column="1"
+                       Content="Continental"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Background="#fffc2626"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+
+                <Label Grid.Row="4" Grid.Column="1"
+                       Content="Festival"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Background="#ff37fc28"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+
+                <Label Grid.Row="5" Grid.Column="1"
+                       Content="WorldWide"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Background="#ffb826fc"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+
+                <Label Grid.Row="6" Grid.Column="1"
+                       Content="Sackson"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Background="#fffaa125"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+
+                <Label Grid.Row="7" Grid.Column="1"
+                       Content="Tower"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Background="#ff26fcc7"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+                
+                
+                
+                
+                <!-- ************ -->
+                <!-- Stock Prices -->
+                <!-- ************ -->
+                <Label x:Name="Content_Price_American"
+                       Grid.Column="2"
+                       Grid.Row="1"
+                       Content="$10000"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3" 
+                       Padding="10,0"
+                />
+
+                <Label x:Name="Content_Price_Imperial"
+                       Grid.Column="2"
+                       Grid.Row="2"
+                       Content="$10000"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+
+                <Label x:Name="Content_Price_Continental"
+                       Grid.Column="2"
+                       Grid.Row="3"
+                       Content="$10000"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+                
+                <Label x:Name="Content_Price_Festival"
+                       Grid.Column="2"
+                       Grid.Row="4"
+                       Content="$10000"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+                
+                <Label x:Name="Content_Price_Worldwide"
+                       Grid.Column="2"
+                       Grid.Row="5"
+                       Content="$10000"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+                
+                <Label x:Name="Content_Price_Sackson"
+                       Grid.Column="2"
+                       Grid.Row="6"
+                       Content="$10000"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+                
+                <Label x:Name="Content_Price_Tower"
+                       Grid.Column="2"
+                       Grid.Row="7"
+                       Content="$10000"
+                       FontSize="24"
+                       Background="Honeydew"
+                       FontFamily="PenultimateLight"
+                       BorderThickness="2"
+                       BorderBrush="Black"
+                       Margin="3"  
+                       Padding="10,0"
+                />
+            </Grid>
+        </Border>
+        <!-- End Corporation Labels-->
+
+        <!-- Start Slider Group-->
+        <!-- Corp Number sliders -->
+        <Border Grid.Row="1" Grid.Column="2"
+                BorderBrush="Black"
+                BorderThickness="2"
+                CornerRadius="8"
+                Margin="10">
+            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+
+                <Label Grid.Row="0" Grid.Column="0"
+                       Grid.ColumnSpan="2"
+                       Content="Amount:"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                />
+
+                <!-- Stock Purchase Number Sliders -->
+                <Slider Grid.Row="1"
+                        x:Name="slider_Corp_American"
+                        Foreground="Black" 
+                        Minimum="0" Maximum="3" 
+                        Value="0"
+                        IsSnapToTickEnabled="True"
+                        TickFrequency="1"
+                        Margin="10,10,1,10"
+                        BorderBrush="Black"
+                        BorderThickness="2" 
+                        Background="#FFB0B0B0"
+                        
+                        ValueChanged="Slider_ValueChanged"
+                />
+
+                <Slider Grid.Row="2"
+                        x:Name="slider_Corp_Imperial"
+                        Foreground="Black" 
+                        Minimum="0" Maximum="3" 
+                        Value="0"
+                        IsSnapToTickEnabled="True"
+                        TickFrequency="1"
+                        Margin="10,10,1,10"
+                        BorderBrush="Black"
+                        BorderThickness="2" 
+                        Background="#FFB0B0B0"
+                        
+                        ValueChanged="Slider_ValueChanged"
+                />
+
+                <Slider Grid.Row="3"
+                        x:Name="slider_Corp_Continental"
+                        Foreground="Black" 
+                        Minimum="0" Maximum="3" 
+                        Value="0"
+                        IsSnapToTickEnabled="True"
+                        TickFrequency="1"
+                        Margin="10,10,1,10"
+                        BorderBrush="Black"
+                        BorderThickness="2" 
+                        Background="#FFB0B0B0"
+                        
+                        ValueChanged="Slider_ValueChanged"
+                />
+
+                <Slider Grid.Row="4"
+                        x:Name="slider_Corp_Festival"
+                        Foreground="Black" 
+                        Minimum="0" Maximum="3" 
+                        Value="0"
+                        IsSnapToTickEnabled="True"
+                        TickFrequency="1"
+                        Margin="10,10,1,10"
+                        BorderBrush="Black"
+                        BorderThickness="2" 
+                        Background="#FFB0B0B0"
+                        
+                        ValueChanged="Slider_ValueChanged"
+                />
+
+                <Slider Grid.Row="5"
+                        x:Name="slider_Corp_Worldwide"
+                        Foreground="Black" 
+                        Minimum="0" Maximum="3" 
+                        Value="0"
+                        IsSnapToTickEnabled="True"
+                        TickFrequency="1"
+                        Margin="10,10,1,10"
+                        BorderBrush="Black"
+                        BorderThickness="2" 
+                        Background="#FFB0B0B0"
+                        
+                        ValueChanged="Slider_ValueChanged"
+                />
+
+                <Slider Grid.Row="6"
+                        x:Name="slider_Corp_Sackson"
+                        Foreground="Black" 
+                        Minimum="0" Maximum="3" 
+                        Value="0"
+                        IsSnapToTickEnabled="True"
+                        TickFrequency="1"
+                        Margin="10,10,1,10"
+                        BorderBrush="Black"
+                        BorderThickness="2" 
+                        Background="#FFB0B0B0"
+                        
+                        ValueChanged="Slider_ValueChanged"
+                />
+
+                <Slider Grid.Row="7"
+                        x:Name="slider_Corp_Tower"
+                        Foreground="Black" 
+                        Minimum="0" Maximum="3" 
+                        Value="0"
+                        IsSnapToTickEnabled="True"
+                        TickFrequency="1"
+                        Margin="10,10,1,10"
+                        BorderBrush="Black"
+                        BorderThickness="2" 
+                        Background="#FFB0B0B0"
+                        
+                        ValueChanged="Slider_ValueChanged"
+                />
+
+                
+                <!-- Stock Purchase Number Labels -->
+                <Label Grid.Row="1" 
+                       x:Name="qty_Corp_American"
+                       Grid.Column="1"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                />
+
+                <Label Grid.Row="2"
+                       x:Name="qty_Corp_Imperial"
+                       Grid.Column="1"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                />
+
+                <Label Grid.Row="3"
+                       x:Name="qty_Corp_Continental"
+                       Grid.Column="1"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                />
+
+                <Label Grid.Row="4"
+                       x:Name="qty_Corp_Festival"
+                       Grid.Column="1"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                />
+
+                <Label Grid.Row="5"
+                       x:Name="qty_Corp_Worldwide"
+                       Grid.Column="1"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                />
+
+                <Label Grid.Row="6"
+                       x:Name="qty_Corp_Sackson"
+                       Grid.Column="1"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                />
+
+                <Label Grid.Row="7"
+                       x:Name="qty_Corp_Tower"
+                       Grid.Column="1"
+                       FontSize="24"
+                       FontFamily="PenultimateLight"
+                       Content="0"
+                       VerticalContentAlignment="Center"
+                       HorizontalContentAlignment="Center"
+                />
+            </Grid>
+        </Border>
+        
+        <!-- Buttons -->
+        <Grid Grid.Column="1"
+              Grid.ColumnSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Purchase Total -->
+            <GroupBox Grid.Column="0"
+                      Header="Purchase:"
+                      FontFamily="PenultimateLight"
+                      FontSize="32"
+                      FontWeight="ExtraBlack"
+                      BorderBrush="Black"
+                      BorderThickness="2"
+                      Margin="10,0,10,10"
+                      >
+                <Label x:Name="lbl_PurchaseTotal"
+                       Content="$1,000,000"
+                       HorizontalContentAlignment="Center"
+                       VerticalContentAlignment="Center"
+                       Background="White"
+                />
+            </GroupBox>
+            
+            <!-- Button Grid -->
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+
+                <Button x:Name="btn_purchase" 
+                    Grid.Row="0"
+                    Content="Purchase" 
+                    Margin="10" 
+                    IsDefault="True"
+                    FontSize="32" 
+                    FontFamily="PenultimateLight" 
+                    
+                    Click="btn_purchase_Click"
+                />
+
+                <Button x:Name="btn_cancel"
+                    Grid.Row="1"
+                    Content="Cancel" 
+                    Margin="10"
+                    IsCancel="True"
+                    FontSize="32" 
+                    FontFamily="PenultimateLight"
+                    
+                    Click="btn_cancel_Click"
+                />
+            </Grid>
+        </Grid>
+        
+        <!-- Player Info -->
+        <GroupBox Grid.Row="0"
+                  x:Name="grp_PlayerInfo"
+                  Header="Player Name"
+                  FontSize="32"
+                  FontFamily="PenultimateLight"
+                  FontWeight="ExtraBold"
+                  BorderBrush="Black"
+                  BorderThickness="2"
+                  Margin="10,0,10,10"
+                  >
+
+            <Label x:Name="lbl_PlayerMoney" 
+                   Content="$1,000,000"
+                   HorizontalContentAlignment="Center"
+                   VerticalContentAlignment="Center"
+                   Background="White"
+            />
+        </GroupBox>
+    </Grid>
+</Window>
